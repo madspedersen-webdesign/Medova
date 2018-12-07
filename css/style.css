@@ -25,106 +25,113 @@ Bokse og streger start
 #vandret-1 {
     width: 15%;
     position: absolute;
-    top: 225px;
-    left: 18px;
+    top: 33.5%;
+    left: 4.8%;
 }
 
 #lodret-1 {
     width: 1%;
     position: absolute;
-    top: 225px;
-    left: 18px;
+    top: 34%;
+    left: 4.8%;
 }
 
 #vandret-2 {
     width: 18%;
     position: absolute;
-    top: 940px;
-    left: 18px;
+    top: 141%;
+    left: 4.8%;
 }
 
 #box2{
     width: 30%;
     position: absolute;
-    top: 875px;
-    left: 70px;
+    top: 131%;
+    left: 19%;
 }
 
 #vandret-3{
     width: 42%;
     position: absolute;
-    top: 940px;
-    left: 165px;
+    top: 141%;
+    left: 44%;
 }
 
 #vandret-4{
     width: 15%;
     position: absolute;
-    top: 940px;
-    left: 275px;
+    top: 141%;
+    left: 74%;
 }
 
 #lodret-2 {
     width: 1%;
     position: absolute;
-    top: 940px;
-    left: 330px;
+    top: 141%;
+    left: 88.9%;
 }
 
 #vandret-5{
-    width: 17%;
+    width: 18%;
     position: absolute;
-    top: 1530px;
-    left: 270px;
+    top: 229.5%;
+    left: 71.6%;
 }
 
 #box3{
     width: 30%;
     position: absolute;
-    top: 1460px;
-    left: 175px;
+    top: 219%;
+    left: 46.5%;
 }
 
 #vandret-6{
     width: 45%;
     position: absolute;
-    top: 1530px;
-    left: 20px;
+    top: 229.5%;
+    left: 5.5%;
 }
 
 #lodret-3 {
     width: 1%;
     position: absolute;
-    top: 1530px;
-    left: 20px;
+    top: 229.5%;
+    left: 5%;
 }
 
 #vandret-7 {
     width: 18%;
     position: absolute;
-    top: 2120px;
-    left: 20px;
+    top: 318%;
+    left: 5%;
 }
 
 #box4{
     width: 30%;
     position: absolute;
-    top: 2050px;
-    left: 75px;
+    top: 308%;
+    left: 19.5%;
 }
 
 #vandret-8{
     width: 45%;
     position: absolute;
-    top: 2120px;
-    left: 172px;
+    top: 318%;
+    left: 45%;
 }
 
 #lodret-4 {
     width: 1%;
     position: absolute;
-    top: 2120px;
-    left: 340px;
+    top: 318%;
+    left: 89%;
+}
+
+#vandret-9{
+    width: 18%;
+    position: absolute;
+    top: 406.5%;
+    left: 72%;
 }
 /* ====================================
 Bokse og streger slut
