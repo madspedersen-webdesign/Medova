@@ -133,6 +133,97 @@ Bokse og streger start
     top: 406.5%;
     left: 72%;
 }
+
+#box5{
+    width: 30%;
+    position: absolute;
+    top: 396%;
+    left: 46%;
+}
+
+#vandret-10{
+    width: 41%;
+    position: absolute;
+    top: 406.5%;
+    left: 8.5%;
+}
+
+#lodret-5 {
+    width: 1%;
+    position: absolute;
+    top: 406.5%;
+    left: 8.5%;
+}
+
+#vandret-11{
+    width: 18%;
+    position: absolute;
+    top: 495%;
+    left: 8.5%;
+}
+
+#box6{
+    width: 30%;
+    position: absolute;
+    top: 485%;
+    left: 23%;
+}
+
+#vandret-12{
+    width: 41%;
+    position: absolute;
+    top: 495%;
+    left: 48.5%;
+}
+
+#lodret-6 {
+    width: 1%;
+    position: absolute;
+    top: 495%;
+    left: 89%;
+}
+
+#box7{
+    width: 80%;
+    position: absolute;
+    top: 570%;
+    left: 10%
+}
+
+#vandret-13{
+    width: 9%;
+    position: absolute;
+    top: 584%;
+    left: 81%;
+}
+
+#blue-vandret{
+    width: 8%;
+    position: absolute;
+    top: 716%;
+    left: 10.6%
+}
+
+#blue-lodret{
+    width: 1%;
+    position: absolute;
+    top: 716%;
+    left: 10.6%
+}
+
+#blue-vandret-2{
+    width: 20%;
+    position: absolute;
+    top: 797.5%;
+    left: 10.6%
+}
+
+#blue-box{
+    width: 50%;
+    position: absolute;
+    top: 780%;
+    left: 30%
+}
 /* ====================================
 Bokse og streger slut
 ==================================== */
@@ -186,6 +277,40 @@ Historie tekst start
     color: white;
 }
 
+.tekst-5{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.tekst-5 p{
+    color: white;
+}
+
+.tekst-6{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40%;
+}
+
+.tekst-6 p{
+    color: white;
+}
+
+.tekst-7{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 70%;
+}
+
+.tekst-7 p{
+    color: white;
+}
+
+
 /* ====================================
 Historie tekst slut
 ==================================== */
@@ -198,6 +323,63 @@ Historie billeder start
     margin-top: -55%;
 }
 
+.billede-5{
+    margin-top: -15%;
+}
+
+.billede-6{
+    margin-top: -60%;
+}
+
 /* ====================================
 Historie billeder slut
+==================================== */
+
+/* ====================================
+Fairtrade tekst start
+==================================== */
+
+.tekst-8{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.tekst-8 p{
+    color: white;
+}
+
+.tekst-9{
+    position: relative;
+    width: 45%;
+    margin-left: 33%;
+    margin-top: -55%;
+}
+
+.tekst-9 p{
+    color: white;
+}
+
+/* ====================================
+Fairtrade tekst slut
+==================================== */
+
+/* ====================================
+Fairtrade billeder start
+==================================== */
+
+.fairtrade-tekst-box{
+    width: 75%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fairtrade-billede{
+    margin-top: -60%;
+}
+
+/* ====================================
+Fairtrade billeder slut
 ==================================== */
