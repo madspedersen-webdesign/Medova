@@ -10,7 +10,6 @@ body {
     background-size: 100%;
 }
 
-
 /* ====================================
 Bokse og streger start
 ==================================== */
@@ -24,204 +23,204 @@ Bokse og streger start
 
 #vandret-1 {
     width: 15%;
-    position: absolute;
-    top: 33.5%;
-    left: 4.8%;
+    display: block;
+    margin-top: -55%;
+    margin-left: 4.8%;
 }
 
 #lodret-1 {
     width: 1%;
-    position: absolute;
-    top: 34%;
-    left: 4.8%;
+    display: block;
+    margin-left: 4.8%;
 }
 
 #vandret-2 {
     width: 18%;
     position: absolute;
-    top: 141%;
-    left: 4.8%;
+    top: 255vw;
+    margin-left: 4.8%;
 }
 
 #box2{
     width: 30%;
     position: absolute;
-    top: 131%;
-    left: 19%;
+    top: 237vw;
+    left: 19vw;
+    
 }
 
 #vandret-3{
     width: 42%;
     position: absolute;
-    top: 141%;
+    top: 255vw;
     left: 44%;
 }
 
 #vandret-4{
     width: 15%;
     position: absolute;
-    top: 141%;
+    top: 255vw;
     left: 74%;
 }
 
 #lodret-2 {
     width: 1%;
     position: absolute;
-    top: 141%;
+    top: 255vw;
     left: 88.9%;
 }
 
 #vandret-5{
     width: 18%;
     position: absolute;
-    top: 229.5%;
-    left: 71.6%;
+    top: 412vw;
+    left: 71.5%;
 }
 
 #box3{
     width: 30%;
     position: absolute;
-    top: 219%;
+    top: 394vw;
     left: 46.5%;
 }
 
 #vandret-6{
     width: 45%;
     position: absolute;
-    top: 229.5%;
+    top: 412vw;
     left: 5.5%;
 }
 
 #lodret-3 {
     width: 1%;
     position: absolute;
-    top: 229.5%;
+    top: 412vw;
     left: 5%;
 }
 
 #vandret-7 {
     width: 18%;
     position: absolute;
-    top: 318%;
+    top: 569vw;
     left: 5%;
 }
 
 #box4{
     width: 30%;
     position: absolute;
-    top: 308%;
+    top: 550vw;
     left: 19.5%;
 }
 
 #vandret-8{
     width: 45%;
     position: absolute;
-    top: 318%;
+    top: 569vw;
     left: 45%;
 }
 
 #lodret-4 {
     width: 1%;
     position: absolute;
-    top: 318%;
+    top: 569vw;
     left: 89%;
 }
 
 #vandret-9{
     width: 18%;
     position: absolute;
-    top: 406.5%;
+    top: 727vw;
     left: 72%;
 }
 
 #box5{
     width: 30%;
     position: absolute;
-    top: 396%;
+    top: 709vw;
     left: 46%;
 }
 
 #vandret-10{
     width: 41%;
     position: absolute;
-    top: 406.5%;
+    top: 727vw;
     left: 8.5%;
 }
 
 #lodret-5 {
     width: 1%;
     position: absolute;
-    top: 406.5%;
+    top: 727vw;
     left: 8.5%;
 }
 
 #vandret-11{
     width: 18%;
     position: absolute;
-    top: 495%;
+    top: 884vw;
     left: 8.5%;
 }
 
 #box6{
     width: 30%;
     position: absolute;
-    top: 485%;
+    top: 866vw;
     left: 23%;
 }
 
 #vandret-12{
     width: 41%;
     position: absolute;
-    top: 495%;
+    top: 884vw;
     left: 48.5%;
 }
 
 #lodret-6 {
     width: 1%;
     position: absolute;
-    top: 495%;
+    top: 884vw;
     left: 89%;
 }
 
 #box7{
     width: 80%;
     position: absolute;
-    top: 570%;
+    top: 1010vw;
     left: 10%
 }
 
 #vandret-13{
     width: 9%;
     position: absolute;
-    top: 584%;
+    top: 1041.5vw;
     left: 81%;
 }
 
 #blue-vandret{
     width: 8%;
     position: absolute;
-    top: 716%;
+    top: 1310vw;
     left: 10.6%
 }
 
 #blue-lodret{
     width: 1%;
     position: absolute;
-    top: 716%;
+    top: 1310vw;
     left: 10.6%
 }
 
 #blue-vandret-2{
     width: 20%;
     position: absolute;
-    top: 797.5%;
+    top: 1454vw;
     left: 10.6%
 }
 
 #blue-box{
     width: 50%;
     position: absolute;
-    top: 780%;
+    top: 1435vw;
     left: 30%
 }
 /* ====================================
@@ -233,11 +232,10 @@ Historie tekst start
 ==================================== */
 
 .tekst-1{
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 10%;
-    margin-bottom: -40%;
+    top: 125vw;
+    margin-left: 20%;
 }
 
 .tekst-1 p{
@@ -245,10 +243,10 @@ Historie tekst start
 }
 
 .tekst-2{
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: 0 auto;
-    margin-top: -20%;
+    top: 280vw;
+    margin-left: 12%;
 }
 
 .tekst-2 p{
@@ -256,10 +254,10 @@ Historie tekst start
 }
 
 .tekst-3{
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 45%;
+    top: 435vw;
+    left: 20vw
 }
 
 .tekst-3 p{
@@ -267,10 +265,10 @@ Historie tekst start
 }
 
 .tekst-4{
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 30%;
+    top: 590vw;
+    left: 12vw;
 }
 
 .tekst-4 p{
@@ -278,10 +276,10 @@ Historie tekst start
 }
 
 .tekst-5{
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 10%;
+    top: 750vw;
+    left: 20vw;
 }
 
 .tekst-5 p{
@@ -289,10 +287,10 @@ Historie tekst start
 }
 
 .tekst-6{
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 40%;
+    top: 905vw;
+    left: 12vw;
 }
 
 .tekst-6 p{
@@ -300,16 +298,15 @@ Historie tekst start
 }
 
 .tekst-7{
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 70%;
+    top: 1120vw;
+    left: 15vw;
 }
 
 .tekst-7 p{
     color: white;
 }
-
 
 /* ====================================
 Historie tekst slut
@@ -318,17 +315,42 @@ Historie tekst slut
 /* ====================================
 Historie billeder start
 ==================================== */
-
-.billede-4{
-    margin-top: -55%;
+#billede-1{
+    position: absolute;
+    top: 120vw;
+    z-index: -1;
 }
 
-.billede-5{
-    margin-top: -15%;
+#billede-2{
+    position: absolute;
+    top: 315vw;
+    z-index: -1;
 }
 
-.billede-6{
-    margin-top: -60%;
+#billede-3{
+    position: absolute;
+    top: 460vw;
+    z-index: -1;
+}
+
+#billede-4{
+    position: absolute;
+    top: 568vw;
+}
+
+#billede-5{
+    position: absolute;
+    top: 765vw;
+}
+
+#billede-6{
+    position: absolute;
+    top: 865vw;
+}
+
+#billede-7{
+    position: absolute;
+    top: 1160vw;
 }
 
 /* ====================================
@@ -340,10 +362,11 @@ Fairtrade tekst start
 ==================================== */
 
 .tekst-8{
-    position: relative;
+    position: absolute;
     width: 70%;
     margin: 0 auto;
-    margin-top: 5%;
+    top: 1350vw;
+    left: 20vw;
 }
 
 .tekst-8 p{
@@ -351,10 +374,10 @@ Fairtrade tekst start
 }
 
 .tekst-9{
-    position: relative;
+    position: absolute;
     width: 45%;
     margin-left: 33%;
-    margin-top: -55%;
+    top: 1450vw;
 }
 
 .tekst-9 p{
@@ -369,17 +392,34 @@ Fairtrade tekst slut
 Fairtrade billeder start
 ==================================== */
 
-.fairtrade-tekst-box{
+#fairtrade-tekst-box{
+    position: absolute;
     width: 75%;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    top: 1240vw;
+    left: 12vw;
 }
 
-.fairtrade-billede{
-    margin-top: -60%;
+#fairtrade-billede{
+    position: absolute;
+    top: 1290vw;
+    z-index: -1;
 }
 
 /* ====================================
 Fairtrade billeder slut
+==================================== */
+
+/* ====================================
+Butik billeder start
+==================================== */
+
+#butik-overskrift{
+    position: absolute;
+    width: 40%;
+    top: 1530vw;
+    left: 30vw;
+}
+
+/* ====================================
+Butik billeder slut
 ==================================== */
