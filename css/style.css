@@ -213,7 +213,7 @@ Bokse og streger start
 #blue-vandret-2{
     width: 20%;
     position: absolute;
-    top: 1454vw;
+    top: 1455vw;
     left: 10.6%
 }
 
@@ -336,21 +336,25 @@ Historie billeder start
 #billede-4{
     position: absolute;
     top: 568vw;
+    z-index: -1;
 }
 
 #billede-5{
     position: absolute;
     top: 765vw;
+    z-index: -1;
 }
 
 #billede-6{
     position: absolute;
     top: 865vw;
+    z-index: -1;
 }
 
 #billede-7{
     position: absolute;
     top: 1160vw;
+    z-index: -1;
 }
 
 /* ====================================
