@@ -536,22 +536,24 @@ Butik billeder start
 
 .pris{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pris p{
     width: auto;
+    padding-top: 5%;
 }
 
 .betaling{
     display: block;
     margin: 0 auto;
     width: 100%;
-    background-color: #52c8e9;
+    background-color: #01baee;
     margin: 10% 0;
     text-align: center;
     padding: 5% 0;
     color: white;
+    font-size: 25px;
 }
 /* ====================================
 Butik billeder slut
@@ -590,9 +592,9 @@ footer{
 Footer slut
 ==================================== */
 
-
-
-/*MEDIA QUERY MOBILE */
+/* ====================================
+MEDIA QUERY MOBILE START
+==================================== */
 
 @media all and (max-width: 599px) {
 
@@ -637,7 +639,9 @@ Footer slut
     }
 }
 
-/*MEDIA QUERY TABLET AND ABOVE*/
+/* ====================================
+MEDIA QUERY MOBILE SLUT
+==================================== */
 
 @media all and (min-width: 600px) {
 
@@ -677,7 +681,9 @@ Footer slut
 
 }
 
-/*MEDIA QUERY LAPTOP AND ABOVE*/
+/* ====================================
+MEDIA QUERY LAPTOP AND ABOVE START
+==================================== */
 
 @media all and (min-width: 1024px) {
 
@@ -689,3 +695,6 @@ Footer slut
     
 }
 
+/* ====================================
+MEDIA QUERY LAPTOP AND ABOVE SLUT
+==================================== */
