@@ -17,7 +17,11 @@ Nav start
 
 header {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 #logo-burger {
@@ -27,12 +31,13 @@ header {
 }
 
 #logo img {
-    width: 15%;
+    width: 100%;
+    margin-top: 20%
 }
 
 #logo,
 #main-nav a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -61,6 +66,530 @@ header {
     display: none;
 }
 
+/* ====================================
+Nav slut
+==================================== */
+
+/* ====================================
+Bokse og streger start
+==================================== */
+.year {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#vandret-1 {
+    width: 15%;
+    display: block;
+    position: relative;
+    margin-top: -340%;
+    margin-left: 4.8%;
+}
+
+#lodret-1 {
+    width: 1%;
+    display: block;
+    position: relative;
+    margin-left: 4.8%;
+}
+
+#vandret-2 {
+    width: 18%;
+    display: block;
+    position: relative;
+    margin-left: 4.8%;
+}
+
+#box2{
+    width: 30%;
+    display: block;
+    position: relative;
+    top: 115vw;
+    left: 19vw;
+    
+}
+
+#vandret-3{
+    width: 45%;
+    display: block;
+    position: relative;
+    top: -1vw;
+    left: 44%;
+}
+
+#lodret-2 {
+    width: 1%;
+    display: block;
+    position: relative;
+    top: -2vw;
+    left: 88.9%;
+}
+
+#vandret-5{
+    width: 18%;
+    display: block;
+    position: relative;
+    top: -3vw;
+    left: 71.5%;
+}
+
+#box3{
+    width: 30%;
+    display: block;
+    position: relative;
+    top: 236vw;
+    left: 46.5%;
+}
+
+#vandret-6{
+    width: 45%;
+    display: block;
+    position: relative;
+    top: -4vw;
+    left: 5.5%;
+}
+
+#lodret-3 {
+    width: 1%;
+    display: block;
+    position: relative;
+    top: -5vw;
+    left: 5%;
+}
+
+#vandret-7 {
+    width: 18%;
+    display: block;
+    position: relative;
+    top: -6vw;
+    left: 5%;
+}
+
+#box4{
+    width: 30%;
+    display: block;
+    position: relative;
+    top: 358vw;
+    left: 19.5%;
+}
+
+#vandret-8{
+    width: 45%;
+    display: block;
+    position: relative;
+    top: -7vw;
+    left: 45%;
+}
+
+#lodret-4 {
+    width: 1%;
+    display: block;
+    position: relative;
+    top: -8vw;
+    left: 89%;
+}
+
+#vandret-9{
+    width: 18%;
+    display: block;
+    position: relative;
+    top: -9vw;
+    left: 72%;
+}
+
+#box5{
+    width: 30%;
+    display: block;
+    position: relative;
+    top: 481vw;
+    left: 46%;
+}
+
+#vandret-10{
+    width: 41%;
+    display: block;
+    position: relative;
+    top: -10vw;
+    left: 8.5%;
+}
+
+#lodret-5 {
+    width: 1%;
+    display: block;
+    position: relative;
+    top: -10vw;
+    left: 8.5%;
+}
+
+#vandret-11{
+    width: 18%;
+    display: block;
+    position: relative;
+    top: -10vw;
+    left: 8.5%;
+}
+
+#box6{
+    width: 30%;
+    display: block;
+    position: relative;
+    top: 600vw;
+    left: 23%;
+}
+
+#vandret-12{
+    width: 41%;
+    display: block;
+    position: relative;
+    top: -11vw;
+    left: 48.5%;
+}
+
+#lodret-6 {
+    width: 1%;
+    display: block;
+    position: relative;
+    top: -12vw;
+    left: 89%;
+}
+
+#box7{
+    width: 80%;
+    display: block;
+    position: relative;;
+    top: 710vw;
+    left: 10%
+}
+
+#vandret-13{
+    width: 9%;
+    display: block;
+    position: relative;
+    top: -12vw;
+    left: 81%;
+}
+
+#blue-vandret{
+    width: 8%;
+    display: block;
+    position: relative;
+    top: 255vw;
+    left: 10.6%
+}
+
+#blue-lodret{
+    width: 1%;
+    display: block;
+    position: relative;
+    top: 255vw;
+    left: 10.6%
+}
+
+#blue-vandret-2{
+    width: 20%;
+    display: block;
+    position: relative;
+    top: 255vw;
+    left: 10.6%
+}
+
+#blue-box{
+    width: 50%;
+    display: block;
+    position: relative;
+    top: 235vw;
+    left: 30%
+}
+/* ====================================
+Bokse og streger slut
+==================================== */
+
+/* ====================================
+Historie tekst start
+==================================== */
+
+.tekst-1{
+    display: block;
+    position: relative;
+    width: 70%;
+    top: -1135vw;
+    margin-left: 20%;
+}
+
+.tekst-1 p{
+    color: white;
+}
+
+.tekst-2{
+    display: block;
+    position: relative;
+    width: 70%;
+    top: -1015vw;
+    margin-left: 12%;
+}
+
+.tekst-2 p{
+    color: white;
+}
+
+.tekst-3{
+    display: block;
+    position: relative;
+    width: 70%;
+    top: -888vw;
+    left: 20vw
+}
+
+.tekst-3 p{
+    color: white;
+}
+
+.tekst-4{
+    display: block;
+    position: relative;
+    width: 70%;
+    top: -760vw;
+    left: 12vw;
+}
+
+.tekst-4 p{
+    color: white;
+}
+
+.tekst-5{
+    display: block;
+    position: relative;
+    width: 70%;
+    top: -625vw;
+    left: 20vw;
+}
+
+.tekst-5 p{
+    color: white;
+}
+
+.tekst-6{
+    display: block;
+    position: relative;
+    width: 70%;
+    top: -500vw;
+    left: 12vw;
+}
+
+.tekst-6 p{
+    color: white;
+}
+
+.tekst-7{
+    display: block;
+    position: relative;
+    width: 70%;
+    top: -320vw;
+    left: 15vw;
+}
+
+.tekst-7 p{
+    color: white;
+}
+
+/* ====================================
+Historie tekst slut
+==================================== */
+
+/* ====================================
+Historie billeder start
+==================================== */
+#billede-1{
+    position: absolute;
+    top: 132vw;
+    z-index: -1;
+}
+
+#billede-2{
+    position: absolute;
+    top: 327vw;
+    z-index: -1;
+}
+
+#billede-3{
+    position: absolute;
+    top: 472vw;
+    z-index: -1;
+}
+
+#billede-4{
+    position: absolute;
+    top: 580vw;
+    z-index: -1;
+}
+
+#billede-5{
+    position: absolute;
+    top: 777vw;
+    z-index: -1;
+}
+
+#billede-6{
+    position: absolute;
+    top: 890vw;
+    z-index: -1;
+}
+
+#billede-7{
+    position: absolute;
+    top: 1172vw;
+    z-index: -1;
+}
+
+/* ====================================
+Historie billeder slut
+==================================== */
+
+/* ====================================
+Fairtrade tekst start
+==================================== */
+
+.tekst-8{
+    position: absolute;
+    width: 70%;
+    margin: 0 auto;
+    top: 1362vw;
+    left: 20vw;
+}
+
+.tekst-8 p{
+    color: white;
+}
+
+.tekst-9{
+    position: absolute;
+    width: 45%;
+    margin-left: 33%;
+    top: 1455vw;
+}
+
+.tekst-9 p{
+    color: white;
+}
+
+/* ====================================
+Fairtrade tekst slut
+==================================== */
+
+/* ====================================
+Fairtrade billeder start
+==================================== */
+
+#fairtrade-tekst-box{
+    display: block;
+    position: relative;
+    width: 75%;
+    top: -215vw;
+    left: 12vw;
+}
+
+#fairtrade-billede{
+    position: absolute;
+    top: 1302vw;
+    z-index: -1;
+}
+
+/* ====================================
+Fairtrade billeder slut
+==================================== */
+
+/* ====================================
+Butik billeder start
+==================================== */
+
+#butik-overskrift{
+    display: block;
+    position: relative;
+    width: 40%;
+    top: -30vw;
+    left: 30vw;
+}
+
+.butik-boks{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    box-shadow: 5px 1px 20px 1px;
+}
+
+#produkt{
+    width: 100%;
+    box-shadow: 5px 1px 20px 1px;
+}
+
+#antal{
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.pris{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pris p{
+    width: auto;
+}
+
+.betaling{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #52c8e9;
+    margin: 10% 0;
+    text-align: center;
+    padding: 5% 0;
+    color: white;
+}
+/* ====================================
+Butik billeder slut
+==================================== */
+
+/* ====================================
+Footer start
+==================================== */
+
+footer{
+    background-color: #2d2d2d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 5px 1px 20px 1px black;
+}
+
+#devider{
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 70%;
+    background-color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#sociale-medier{
+    width: 45%;
+    margin-top: 5%;
+}
+/* ====================================
+Footer slut
+==================================== */
+
 
 
 /*MEDIA QUERY MOBILE */
@@ -81,6 +610,8 @@ header {
         display: block;
         font-size: 2em;
         cursor: pointer;
+        color: white;
+        margin-left: 80%;
     }
 
     #toggle:checked + #main-nav {
@@ -155,427 +686,6 @@ header {
         flex-direction: row;
         align-items: center;
     }
-
-}
-
-/* ====================================
-Nav slut
-==================================== */
-
-/* ====================================
-Bokse og streger start
-==================================== */
-.year {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-}
-
-#vandret-1 {
-    width: 15%;
-    display: block;
-    margin-top: -55%;
-    margin-left: 4.8%;
-}
-
-#lodret-1 {
-    width: 1%;
-    display: block;
-    margin-left: 4.8%;
-}
-
-#vandret-2 {
-    width: 18%;
-    position: absolute;
-    top: 255vw;
-    margin-left: 4.8%;
-}
-
-#box2{
-    width: 30%;
-    position: absolute;
-    top: 237vw;
-    left: 19vw;
     
 }
 
-#vandret-3{
-    width: 42%;
-    position: absolute;
-    top: 255vw;
-    left: 44%;
-}
-
-#vandret-4{
-    width: 15%;
-    position: absolute;
-    top: 255vw;
-    left: 74%;
-}
-
-#lodret-2 {
-    width: 1%;
-    position: absolute;
-    top: 255vw;
-    left: 88.9%;
-}
-
-#vandret-5{
-    width: 18%;
-    position: absolute;
-    top: 412vw;
-    left: 71.5%;
-}
-
-#box3{
-    width: 30%;
-    position: absolute;
-    top: 394vw;
-    left: 46.5%;
-}
-
-#vandret-6{
-    width: 45%;
-    position: absolute;
-    top: 412vw;
-    left: 5.5%;
-}
-
-#lodret-3 {
-    width: 1%;
-    position: absolute;
-    top: 412vw;
-    left: 5%;
-}
-
-#vandret-7 {
-    width: 18%;
-    position: absolute;
-    top: 569vw;
-    left: 5%;
-}
-
-#box4{
-    width: 30%;
-    position: absolute;
-    top: 550vw;
-    left: 19.5%;
-}
-
-#vandret-8{
-    width: 45%;
-    position: absolute;
-    top: 569vw;
-    left: 45%;
-}
-
-#lodret-4 {
-    width: 1%;
-    position: absolute;
-    top: 569vw;
-    left: 89%;
-}
-
-#vandret-9{
-    width: 18%;
-    position: absolute;
-    top: 727vw;
-    left: 72%;
-}
-
-#box5{
-    width: 30%;
-    position: absolute;
-    top: 709vw;
-    left: 46%;
-}
-
-#vandret-10{
-    width: 41%;
-    position: absolute;
-    top: 727vw;
-    left: 8.5%;
-}
-
-#lodret-5 {
-    width: 1%;
-    position: absolute;
-    top: 727vw;
-    left: 8.5%;
-}
-
-#vandret-11{
-    width: 18%;
-    position: absolute;
-    top: 884vw;
-    left: 8.5%;
-}
-
-#box6{
-    width: 30%;
-    position: absolute;
-    top: 866vw;
-    left: 23%;
-}
-
-#vandret-12{
-    width: 41%;
-    position: absolute;
-    top: 884vw;
-    left: 48.5%;
-}
-
-#lodret-6 {
-    width: 1%;
-    position: absolute;
-    top: 884vw;
-    left: 89%;
-}
-
-#box7{
-    width: 80%;
-    position: absolute;
-    top: 1010vw;
-    left: 10%
-}
-
-#vandret-13{
-    width: 9%;
-    position: absolute;
-    top: 1041.5vw;
-    left: 81%;
-}
-
-#blue-vandret{
-    width: 8%;
-    position: absolute;
-    top: 1310vw;
-    left: 10.6%
-}
-
-#blue-lodret{
-    width: 1%;
-    position: absolute;
-    top: 1310vw;
-    left: 10.6%
-}
-
-#blue-vandret-2{
-    width: 20%;
-    position: absolute;
-    top: 1455vw;
-    left: 10.6%
-}
-
-#blue-box{
-    width: 50%;
-    position: absolute;
-    top: 1435vw;
-    left: 30%
-}
-/* ====================================
-Bokse og streger slut
-==================================== */
-
-/* ====================================
-Historie tekst start
-==================================== */
-
-.tekst-1{
-    position: absolute;
-    width: 70%;
-    top: 125vw;
-    margin-left: 20%;
-}
-
-.tekst-1 p{
-    color: white;
-}
-
-.tekst-2{
-    position: absolute;
-    width: 70%;
-    top: 280vw;
-    margin-left: 12%;
-}
-
-.tekst-2 p{
-    color: white;
-}
-
-.tekst-3{
-    position: absolute;
-    width: 70%;
-    top: 435vw;
-    left: 20vw
-}
-
-.tekst-3 p{
-    color: white;
-}
-
-.tekst-4{
-    position: absolute;
-    width: 70%;
-    top: 590vw;
-    left: 12vw;
-}
-
-.tekst-4 p{
-    color: white;
-}
-
-.tekst-5{
-    position: absolute;
-    width: 70%;
-    top: 750vw;
-    left: 20vw;
-}
-
-.tekst-5 p{
-    color: white;
-}
-
-.tekst-6{
-    position: absolute;
-    width: 70%;
-    top: 905vw;
-    left: 12vw;
-}
-
-.tekst-6 p{
-    color: white;
-}
-
-.tekst-7{
-    position: absolute;
-    width: 70%;
-    top: 1120vw;
-    left: 15vw;
-}
-
-.tekst-7 p{
-    color: white;
-}
-
-/* ====================================
-Historie tekst slut
-==================================== */
-
-/* ====================================
-Historie billeder start
-==================================== */
-#billede-1{
-    position: absolute;
-    top: 120vw;
-    z-index: -1;
-}
-
-#billede-2{
-    position: absolute;
-    top: 315vw;
-    z-index: -1;
-}
-
-#billede-3{
-    position: absolute;
-    top: 460vw;
-    z-index: -1;
-}
-
-#billede-4{
-    position: absolute;
-    top: 568vw;
-    z-index: -1;
-}
-
-#billede-5{
-    position: absolute;
-    top: 765vw;
-    z-index: -1;
-}
-
-#billede-6{
-    position: absolute;
-    top: 865vw;
-    z-index: -1;
-}
-
-#billede-7{
-    position: absolute;
-    top: 1160vw;
-    z-index: -1;
-}
-
-/* ====================================
-Historie billeder slut
-==================================== */
-
-/* ====================================
-Fairtrade tekst start
-==================================== */
-
-.tekst-8{
-    position: absolute;
-    width: 70%;
-    margin: 0 auto;
-    top: 1350vw;
-    left: 20vw;
-}
-
-.tekst-8 p{
-    color: white;
-}
-
-.tekst-9{
-    position: absolute;
-    width: 45%;
-    margin-left: 33%;
-    top: 1450vw;
-}
-
-.tekst-9 p{
-    color: white;
-}
-
-/* ====================================
-Fairtrade tekst slut
-==================================== */
-
-/* ====================================
-Fairtrade billeder start
-==================================== */
-
-#fairtrade-tekst-box{
-    position: absolute;
-    width: 75%;
-    top: 1240vw;
-    left: 12vw;
-}
-
-#fairtrade-billede{
-    position: absolute;
-    top: 1290vw;
-    z-index: -1;
-}
-
-/* ====================================
-Fairtrade billeder slut
-==================================== */
-
-/* ====================================
-Butik billeder start
-==================================== */
-
-#butik-overskrift{
-    position: absolute;
-    width: 40%;
-    top: 1530vw;
-    left: 30vw;
-}
-
-/* ====================================
-Butik billeder slut
-==================================== */

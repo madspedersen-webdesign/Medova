@@ -12,26 +12,26 @@
 
 <body>
 
-    <main>
+    <!-- Navigation -->
+    <header>
+        <section id="logo-burger">
+            <a id="logo" href="index.html"><img src="images/Logo.png" alt="logo"></a>
+            <label for="toggle">&#9776;</label>
+        </section>
+        <nav>
+            <input type="checkbox" id="toggle" class="hidden">
+            <!-- This has to be outside of #logo-burger to work. #main-nav cannot be selected when this is in a container -->
+            <ul id="main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Navigation slut -->
 
-        <!-- Navigation -->
-        <header>
-            <section id="logo-burger">
-                <a id="logo" href="index.html"><img src="logo.png" alt="logo"></a>
-                <label for="toggle">&#9776;</label>
-            </section>
-            <nav>
-                <input type="checkbox" id="toggle" class="hidden">
-                <!-- This has to be outside of #logo-burger to work. #main-nav cannot be selected when this is in a container -->
-                <ul id="main-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Navigation slut -->
+    <main>
 
         <div class="year">
             <img src="images/box1.png">
@@ -54,7 +54,6 @@
             <img src="images/lodret-lang.png" id="lodret-1">
             <img src="images/vandret-2.png" id="vandret-2">
             <img src="images/vandret-3.png" id="vandret-3">
-            <img src="images/vandret-1.png" id="vandret-4">
             <img src="images/lodret-2.png" id="lodret-2">
             <img src="images/vandret-2.png" id="vandret-5">
             <img src="images/vandret-4.png" id="vandret-6">
@@ -149,6 +148,32 @@
         </div>
 
         <img src="images/Butik.png" id="butik-overskrift">
+
+        <div class="butik-boks">
+            <img src="images/butik-billede.png" id="produkt">
+            <div class="pris">
+                <p>Medova Te</p>
+                <p>29,95,-</p>
+            </div>
+            <img src="images/antal.png" id="antal">
+        </div>
+        
+        <div class="betaling">
+            Betaling
+        </div>
+
+        <footer>
+            <p>Email: email@email.dk</p>
+            <p>Tlf: 00 00 00 00</p>
+            <div>
+            <img src="images/sociale-medier.png" id="sociale-medier">
+            </div>
+            <div id="devider"></div>
+            <p>Adresse:</p>
+            <p>Gadenavn 1</p>
+            <p>0000</p>
+            <p>Bynavn C</p>
+        </footer>
 
 
 
