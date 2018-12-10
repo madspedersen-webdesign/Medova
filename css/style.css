@@ -351,7 +351,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -760vw;
+    top: -755vw;
     left: 12vw;
 }
 
@@ -363,7 +363,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -625vw;
+    top: -622vw;
     left: 20vw;
 }
 
@@ -375,7 +375,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -500vw;
+    top: -493vw;
     left: 12vw;
 }
 
@@ -387,7 +387,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -320vw;
+    top: -310vw;
     left: 15vw;
 }
 
@@ -517,7 +517,7 @@ Butik billeder start
     display: block;
     margin: 0 auto;
     width: 80%;
-    background-color: white;
+    background-color: rgba(255,255,255,0.7);
     box-shadow: 5px 1px 20px 1px;
     border-radius: 10px 10px;
 }
@@ -525,7 +525,7 @@ Butik billeder start
 #produkt{
     width: 100%;
     box-shadow: 5px 1px 20px 1px;
-    border-radius: 10px 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 #antal{
@@ -539,6 +539,7 @@ Butik billeder start
 .pris{
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 .pris p{
@@ -548,14 +549,15 @@ Butik billeder start
 
 .betaling{
     display: block;
-    margin: 0 auto;
-    width: 100%;
-    background-color: #01baee;
-    margin: 10% 0;
+    margin: 10% auto;
+    width: 70%;
+    background-color: rgba(0,176,235,0.7);
     text-align: center;
     padding: 5% 0;
     color: white;
     font-size: 25px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 1px 20px 1px black;
 }
 /* ====================================
 Butik billeder slut
