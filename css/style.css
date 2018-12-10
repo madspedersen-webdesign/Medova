@@ -519,11 +519,13 @@ Butik billeder start
     width: 80%;
     background-color: white;
     box-shadow: 5px 1px 20px 1px;
+    border-radius: 10px 10px;
 }
 
 #produkt{
     width: 100%;
     box-shadow: 5px 1px 20px 1px;
+    border-radius: 10px 10px;
 }
 
 #antal{
