@@ -79,13 +79,13 @@ h2 {
     color: white;
     display: block;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 32%;
     width: 30%;
     margin-top: 15%;
     text-align: center;
     font-family: 'Lobster', cursive;
     top: 10vw;
+    font-size: 40px;
 }
 
 #te-viden-tekst-1 {
@@ -168,7 +168,7 @@ Bokse og streger start
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-bottom: 18%;
 }
 
 #vandret-1 {
@@ -197,7 +197,7 @@ Bokse og streger start
     width: 30%;
     display: block;
     position: relative;
-    top: 115vw;
+    top: 99vw;
     left: 19vw;
 
 }
@@ -227,11 +227,11 @@ Bokse og streger start
 }
 
 #box3 {
-    width: 30%;
+    width: 23%;
     display: block;
     position: relative;
-    top: 236vw;
-    left: 46.5%;
+    top: 223vw;
+    left: 49.5%;
 }
 
 #vandret-6 {
@@ -259,11 +259,11 @@ Bokse og streger start
 }
 
 #box4 {
-    width: 30%;
+    width: 25%;
     display: block;
     position: relative;
-    top: 358vw;
-    left: 19.5%;
+    top: 348vw;
+    left: 21.5%;
 }
 
 #vandret-8 {
@@ -291,11 +291,11 @@ Bokse og streger start
 }
 
 #box5 {
-    width: 30%;
+    width: 25%;
     display: block;
     position: relative;
-    top: 481vw;
-    left: 46%;
+    top: 473vw;
+    left: 48.3%;
 }
 
 #vandret-10 {
@@ -323,11 +323,11 @@ Bokse og streger start
 }
 
 #box6 {
-    width: 30%;
+    width: 24%;
     display: block;
     position: relative;
-    top: 600vw;
-    left: 23%;
+    top: 597vw;
+    left: 25.5%;
 }
 
 #vandret-12 {
@@ -420,7 +420,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -1028vw;
+    top: -1025vw;
     margin-left: 12%;
 }
 
@@ -433,7 +433,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -903vw;
+    top: -908vw;
     left: 20vw
 }
 
@@ -446,7 +446,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -778vw;
+    top: -800vw;
     left: 12vw;
 }
 
@@ -459,7 +459,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -653vw;
+    top: -693vw;
     left: 20vw;
 }
 
@@ -472,7 +472,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -532vw;
+    top: -592vw;
     left: 12vw;
 }
 
@@ -485,7 +485,7 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -355vw;
+    top: -425vw;
     left: 15vw;
 }
 
@@ -568,7 +568,7 @@ Fairtrade tekst start
     position: absolute;
     width: 45%;
     margin-left: 33%;
-    top: 1790vw;
+    top: 1795vw;
 }
 
 .tekst-9 p {
@@ -588,7 +588,7 @@ Fairtrade billeder start
     display: block;
     position: relative;
     width: 75%;
-    top: -260vw;
+    top: -348vw;
     left: 12vw;
 }
 
@@ -612,6 +612,8 @@ Butik billeder start
     width: 40%;
     top: -30vw;
     left: 30vw;
+    margin-top: -120%;
+    margin-bottom: -20%;
 }
 
 .butik-boks {
@@ -1030,7 +1032,6 @@ MEDIA QUERY LAPTOP AND ABOVE START
         flex-direction: row;
         align-items: center;
     }
-
 }
 
 /* ====================================
