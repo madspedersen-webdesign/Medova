@@ -22,6 +22,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
+    margin-top: 4%
 }
 
 #logo-burger {
@@ -83,6 +84,8 @@ h2 {
     width: 30%;
     margin-top: 15%;
     text-align: center;
+    font-family: 'Lobster', cursive;
+    top: 10vw;
 }
 
 #te-viden-tekst-1 {
@@ -94,6 +97,7 @@ h2 {
     width: 65%;
     margin-top: 20%;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 #te-viden-billede {
@@ -114,7 +118,7 @@ h2 {
     width: 60%;
 }
 
-#te-viden-overskrift {
+h3 {
     color: white;
     display: block;
     position: relative;
@@ -123,6 +127,7 @@ h2 {
     width: 65%;
     margin-top: 20%;
     text-align: center;
+    font-family: 'Lobster', cursive;
 }
 
 ol {
@@ -135,6 +140,10 @@ ol {
     margin-top: 20%;
     margin-bottom: 40%;
 }
+
+ol li{
+        font-family: 'Playfair Display', serif;
+    }
 
 /* ====================================
 Te-viden slut
@@ -388,84 +397,91 @@ Historie tekst start
     display: block;
     position: relative;
     width: 70%;
-    top: -1142vw;
+    top: -1145vw;
     margin-left: 20%;
 }
 
 .tekst-1 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .tekst-2 {
     display: block;
     position: relative;
     width: 70%;
-    top: -1021vw;
+    top: -1028vw;
     margin-left: 12%;
 }
 
 .tekst-2 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .tekst-3 {
     display: block;
     position: relative;
     width: 70%;
-    top: -893vw;
+    top: -903vw;
     left: 20vw
 }
 
 .tekst-3 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .tekst-4 {
     display: block;
     position: relative;
     width: 70%;
-    top: -764vw;
+    top: -778vw;
     left: 12vw;
 }
 
 .tekst-4 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .tekst-5 {
     display: block;
     position: relative;
     width: 70%;
-    top: -632vw;
+    top: -653vw;
     left: 20vw;
 }
 
 .tekst-5 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .tekst-6 {
     display: block;
     position: relative;
     width: 70%;
-    top: -505vw;
+    top: -532vw;
     left: 12vw;
 }
 
 .tekst-6 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .tekst-7 {
     display: block;
     position: relative;
     width: 70%;
-    top: -325vw;
+    top: -355vw;
     left: 15vw;
 }
 
 .tekst-7 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 /* ====================================
@@ -477,37 +493,37 @@ Historie billeder start
 ==================================== */
 #billede-1 {
     position: absolute;
-    top: 460vw;
+    top: 475vw;
     z-index: -1;
 }
 
 #billede-2 {
     position: absolute;
-    top: 650vw;
+    top: 665vw;
     z-index: -1;
 }
 
 #billede-3 {
     position: absolute;
-    top: 800vw;
+    top: 815vw;
     z-index: -1;
 }
 
 #billede-4 {
     position: absolute;
-    top: 910vw;
+    top: 925vw;
     z-index: -1;
 }
 
 #billede-5 {
     position: absolute;
-    top: 1110vw;
+    top: 1125vw;
     z-index: -1;
 }
 
 #billede-6 {
     position: absolute;
-    top: 1210vw;
+    top: 1225vw;
     z-index: -1;
 }
 
@@ -529,23 +545,25 @@ Fairtrade tekst start
     position: absolute;
     width: 70%;
     margin: 0 auto;
-    top: 1680vw;
+    top: 1690vw;
     left: 20vw;
 }
 
 .tekst-8 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .tekst-9 {
     position: absolute;
     width: 45%;
     margin-left: 33%;
-    top: 1785vw;
+    top: 1795vw;
 }
 
 .tekst-9 p {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 /* ====================================
@@ -560,13 +578,13 @@ Fairtrade billeder start
     display: block;
     position: relative;
     width: 75%;
-    top: -215vw;
+    top: -260vw;
     left: 12vw;
 }
 
 #fairtrade-billede {
     position: absolute;
-    top: 1620vw;
+    top: 1625vw;
     z-index: -1;
 }
 
@@ -618,6 +636,7 @@ Butik billeder start
 .pris p {
     width: auto;
     padding-top: 5%;
+    font-family: 'Playfair Display', serif;
 }
 
 .betaling {
@@ -631,6 +650,7 @@ Butik billeder start
     font-size: 25px;
     border-radius: 10px 10px;
     box-shadow: 5px 1px 20px 1px black;
+    font-family: 'Playfair Display', serif;
 }
 
 /* ====================================
@@ -650,6 +670,10 @@ footer {
     padding-top: 5%;
     padding-bottom: 5%;
     box-shadow: 5px 1px 20px 1px black;
+}
+
+footer p{
+    font-family: 'Playfair Display', serif;
 }
 
 #devider {
@@ -767,7 +791,6 @@ MEDIA QUERY TABLET START
     /*TE-VIDEN*/
     H2 {
         font-size: 500%;
-        font-family: 'Lobster', cursive;
         text-align: center;
         margin-left: 33%;
     }
@@ -775,13 +798,11 @@ MEDIA QUERY TABLET START
     #te-viden-tekst-1 {
         font-size: 250%;
         line-height: 150%;
-        font-family: 'Playfair Display', serif;
     }
 
     h3 {
         font-size: 300%;
         line-height: 150%;
-        font-family: 'Lobster', cursive;
     }
 
     ol {
@@ -790,102 +811,61 @@ MEDIA QUERY TABLET START
         margin-left: 20%;
     }
     
-    ol li{
-        font-family: 'Playfair Display', serif;
-    }
-    
     /*HISTORIE*/
     .tekst-1{
         font-size: 200%;
         margin-left: 17%;
         line-height: 150%;
     }
-    
-    .tekst-1 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
-    
+     
     .tekst-2{
         font-size: 200%;
         margin-top: 8%;
         line-height: 150%;
     }
-    
-    .tekst-2 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
+
     .tekst-3{
         font-size: 200%;
         margin-top: 5%;
         line-height: 150%;
     }
-    
-    .tekst-3 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
+
     .tekst-4{
         font-size: 200%;
         margin-top: 5%;
         line-height: 150%;
     }
-    
-    .tekst-4 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
+
     .tekst-5{
         font-size: 200%;
         margin-top: 5%;
         line-height: 150%;
     }
-    
-    .tekst-5 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
+
     .tekst-6{
         font-size: 200%;
         margin-top: 5%;
         line-height: 150%;
     }
-    
-    .tekst-6 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
+
     .tekst-7{
         font-size: 200%;
         margin-top: 5%;
         line-height: 150%;
     }
-    
-    .tekst-7 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
+
     /*FAIRTRADE*/
     .tekst-8{
         font-size: 200%;
         line-height: 150%;
     }
-    
-    .tekst-8 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
+
     .tekst-9{
         font-size: 200%;
         margin-top: 5%;
         line-height: 150%;
     }
-    
-    .tekst-9 p{
-        font-family: 'Playfair Display', serif;
-    }
-    
+
     /*BUTIK*/
     .pris{
         font-size: 260%;
