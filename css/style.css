@@ -118,6 +118,16 @@ h2 {
     width: 60%;
 }
 
+#te-pose {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: -40%;
+    margin-left: 42%;
+}
+
 h3 {
     color: white;
     display: block;
@@ -141,9 +151,9 @@ ol {
     margin-bottom: 40%;
 }
 
-ol li{
-        font-family: 'Playfair Display', serif;
-    }
+ol li {
+    font-family: 'Playfair Display', serif;
+}
 
 /* ====================================
 Te-viden slut
@@ -398,7 +408,7 @@ Historie tekst start
     position: relative;
     width: 70%;
     top: -1145vw;
-    margin-left: 20%;
+    margin-left: 17%;
 }
 
 .tekst-1 p {
@@ -545,7 +555,7 @@ Fairtrade tekst start
     position: absolute;
     width: 70%;
     margin: 0 auto;
-    top: 1690vw;
+    top: 1680vw;
     left: 20vw;
 }
 
@@ -558,7 +568,7 @@ Fairtrade tekst start
     position: absolute;
     width: 45%;
     margin-left: 33%;
-    top: 1795vw;
+    top: 1790vw;
 }
 
 .tekst-9 p {
@@ -630,13 +640,55 @@ Butik billeder start
 .pris {
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: black;
 }
 
 .pris p {
     width: auto;
     padding-top: 5%;
     font-family: 'Playfair Display', serif;
+}
+
+.pris-2 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.pris-2 p {
+    width: auto;
+    padding-top: 8%;
+    font-family: 'Playfair Display', serif;
+}
+
+.fragt {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.fragt p {
+    width: auto;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 4%;
+}
+
+.line-break {
+    border-bottom: 1px solid white;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.total {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.total p {
+    width: auto;
+    font-family: 'Playfair Display', serif;
+    padding-top: 3%;
 }
 
 .betaling {
@@ -672,7 +724,7 @@ footer {
     box-shadow: 5px 1px 20px 1px black;
 }
 
-footer p{
+footer p {
     font-family: 'Playfair Display', serif;
 }
 
@@ -810,76 +862,154 @@ MEDIA QUERY TABLET START
         line-height: 140%;
         margin-left: 20%;
     }
-    
+
     /*HISTORIE*/
-    .tekst-1{
+    .tekst-1 {
         font-size: 200%;
         margin-left: 17%;
         line-height: 150%;
+        top: -1130vw;
     }
-     
-    .tekst-2{
+
+    .tekst-2 {
         font-size: 200%;
-        margin-top: 8%;
+        line-height: 150%;
+        top: -1005vw;
+    }
+
+    .tekst-3 {
+        font-size: 200%;
+        line-height: 150%;
+        top: -871vw;
+    }
+
+    .tekst-4 {
+        font-size: 200%;
+        line-height: 150%;
+        top: -735vw;
+    }
+
+    .tekst-5 {
+        font-size: 200%;
+        top: -600vw;
         line-height: 150%;
     }
 
-    .tekst-3{
+    .tekst-6 {
         font-size: 200%;
-        margin-top: 5%;
+        top: -468vw;
         line-height: 150%;
     }
 
-    .tekst-4{
+    .tekst-7 {
         font-size: 200%;
-        margin-top: 5%;
+        top: -283vw;
         line-height: 150%;
     }
-
-    .tekst-5{
-        font-size: 200%;
-        margin-top: 5%;
-        line-height: 150%;
+    
+    #billede-1{
+        top: 453vw;
     }
-
-    .tekst-6{
-        font-size: 200%;
-        margin-top: 5%;
-        line-height: 150%;
+    
+    #billede-2{
+        top: 640vw;
     }
-
-    .tekst-7{
-        font-size: 200%;
-        margin-top: 5%;
-        line-height: 150%;
+    
+    #billede-3{
+        top: 790vw;
+    }
+    
+    #billede-4{
+        top: 900vw;
+    }
+    
+    #billede-5{
+        top: 1100vw;
+    }
+    
+    #billede-6{
+        top: 1200vw;
+    }
+    
+    #billede-7{
+        top: 1480vw;
     }
 
     /*FAIRTRADE*/
-    .tekst-8{
+    #fairtrade-tekst-box{
+        top: -200vw;
+    }
+    
+    .tekst-8 {
+        top: 1650vw;
         font-size: 200%;
         line-height: 150%;
     }
 
-    .tekst-9{
+    .tekst-9 {
+        width: 38%;
         font-size: 200%;
-        margin-top: 5%;
         line-height: 150%;
+        top: 1750vw;
+    }
+    
+    #blue-vandret{
+        top: 230vw;
+    }
+    
+    #blue-lodret{
+        top: 230vw;
+    }
+    
+    #blue-vandret-2{
+        top: 230vw;
+    }
+    
+    #blue-box{
+        width: 40%;
+        top: 205vw;
+    }
+    
+    #fairtrade-billede{
+        top: 1590vw;
     }
 
     /*BUTIK*/
-    .pris{
+    .butik-boks{
+        width: 65%;
+    }
+    
+    .pris {
         font-size: 260%;
         line-height: 150%;
     }
-    
-    .betaling{
+
+    .pris-2 p {
+        font-size: 300%;
+    }
+
+    .fragt p {
+        font-size: 300%;
+        padding-bottom: 4%;
+    }
+
+    .line-break {
+        border-bottom: 3px solid white;
+        width: 700px;
+    }
+
+    .total p {
+        font-size: 300%;
+    }
+
+    .betaling {
         font-size: 200%;
         margin-top: 5%;
         line-height: 150%;
     }
-    
+
     /*FOOTER*/
-    footer p{
+    footer p {
         font-size: 200%;
         line-height: 150%;
     }
