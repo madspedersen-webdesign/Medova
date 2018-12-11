@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../images/baggrund.jpg);
+    background-image: url(../images/baggrund2.jpg);
     background-size: 100%;
 }
 
@@ -71,8 +71,79 @@ Nav slut
 ==================================== */
 
 /* ====================================
+Te-viden start
+==================================== */
+
+h2 {
+    color: white;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+#te-viden-tekst-1 {
+    color: white;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    margin-top: 20%;
+    text-align: center;
+}
+
+#te-viden-billede {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40%;
+    z-index: -1;
+}
+
+#te-viden-boks {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -75%;
+    width: 60%;
+}
+
+#te-viden-overskrift {
+    color: white;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    margin-top: 20%;
+    text-align: center;
+}
+
+ol {
+    color: white;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 20%;
+    margin-bottom: 40%;
+}
+
+/* ====================================
+Te-viden slut
+==================================== */
+
+/* ====================================
 Bokse og streger start
 ==================================== */
+
 .year {
     width: 70%;
     display: block;
@@ -103,16 +174,16 @@ Bokse og streger start
     margin-left: 4.8%;
 }
 
-#box2{
+#box2 {
     width: 30%;
     display: block;
     position: relative;
     top: 115vw;
     left: 19vw;
-    
+
 }
 
-#vandret-3{
+#vandret-3 {
     width: 45%;
     display: block;
     position: relative;
@@ -128,7 +199,7 @@ Bokse og streger start
     left: 88.9%;
 }
 
-#vandret-5{
+#vandret-5 {
     width: 18%;
     display: block;
     position: relative;
@@ -136,7 +207,7 @@ Bokse og streger start
     left: 71.5%;
 }
 
-#box3{
+#box3 {
     width: 30%;
     display: block;
     position: relative;
@@ -144,7 +215,7 @@ Bokse og streger start
     left: 46.5%;
 }
 
-#vandret-6{
+#vandret-6 {
     width: 45%;
     display: block;
     position: relative;
@@ -168,7 +239,7 @@ Bokse og streger start
     left: 5%;
 }
 
-#box4{
+#box4 {
     width: 30%;
     display: block;
     position: relative;
@@ -176,7 +247,7 @@ Bokse og streger start
     left: 19.5%;
 }
 
-#vandret-8{
+#vandret-8 {
     width: 45%;
     display: block;
     position: relative;
@@ -192,7 +263,7 @@ Bokse og streger start
     left: 89%;
 }
 
-#vandret-9{
+#vandret-9 {
     width: 18%;
     display: block;
     position: relative;
@@ -200,7 +271,7 @@ Bokse og streger start
     left: 72%;
 }
 
-#box5{
+#box5 {
     width: 30%;
     display: block;
     position: relative;
@@ -208,7 +279,7 @@ Bokse og streger start
     left: 46%;
 }
 
-#vandret-10{
+#vandret-10 {
     width: 41%;
     display: block;
     position: relative;
@@ -224,7 +295,7 @@ Bokse og streger start
     left: 8.5%;
 }
 
-#vandret-11{
+#vandret-11 {
     width: 18%;
     display: block;
     position: relative;
@@ -232,7 +303,7 @@ Bokse og streger start
     left: 8.5%;
 }
 
-#box6{
+#box6 {
     width: 30%;
     display: block;
     position: relative;
@@ -240,7 +311,7 @@ Bokse og streger start
     left: 23%;
 }
 
-#vandret-12{
+#vandret-12 {
     width: 41%;
     display: block;
     position: relative;
@@ -256,15 +327,16 @@ Bokse og streger start
     left: 89%;
 }
 
-#box7{
+#box7 {
     width: 80%;
     display: block;
-    position: relative;;
+    position: relative;
+    ;
     top: 710vw;
     left: 10%
 }
 
-#vandret-13{
+#vandret-13 {
     width: 9%;
     display: block;
     position: relative;
@@ -272,7 +344,7 @@ Bokse og streger start
     left: 81%;
 }
 
-#blue-vandret{
+#blue-vandret {
     width: 8%;
     display: block;
     position: relative;
@@ -280,7 +352,7 @@ Bokse og streger start
     left: 10.6%
 }
 
-#blue-lodret{
+#blue-lodret {
     width: 1%;
     display: block;
     position: relative;
@@ -288,7 +360,7 @@ Bokse og streger start
     left: 10.6%
 }
 
-#blue-vandret-2{
+#blue-vandret-2 {
     width: 20%;
     display: block;
     position: relative;
@@ -296,13 +368,14 @@ Bokse og streger start
     left: 10.6%
 }
 
-#blue-box{
+#blue-box {
     width: 50%;
     display: block;
     position: relative;
     top: 235vw;
     left: 30%
 }
+
 /* ====================================
 Bokse og streger slut
 ==================================== */
@@ -311,87 +384,87 @@ Bokse og streger slut
 Historie tekst start
 ==================================== */
 
-.tekst-1{
+.tekst-1 {
     display: block;
     position: relative;
     width: 70%;
-    top: -1135vw;
+    top: -1142vw;
     margin-left: 20%;
 }
 
-.tekst-1 p{
+.tekst-1 p {
     color: white;
 }
 
-.tekst-2{
+.tekst-2 {
     display: block;
     position: relative;
     width: 70%;
-    top: -1015vw;
+    top: -1021vw;
     margin-left: 12%;
 }
 
-.tekst-2 p{
+.tekst-2 p {
     color: white;
 }
 
-.tekst-3{
+.tekst-3 {
     display: block;
     position: relative;
     width: 70%;
-    top: -888vw;
+    top: -893vw;
     left: 20vw
 }
 
-.tekst-3 p{
+.tekst-3 p {
     color: white;
 }
 
-.tekst-4{
+.tekst-4 {
     display: block;
     position: relative;
     width: 70%;
-    top: -755vw;
+    top: -764vw;
     left: 12vw;
 }
 
-.tekst-4 p{
+.tekst-4 p {
     color: white;
 }
 
-.tekst-5{
+.tekst-5 {
     display: block;
     position: relative;
     width: 70%;
-    top: -622vw;
+    top: -632vw;
     left: 20vw;
 }
 
-.tekst-5 p{
+.tekst-5 p {
     color: white;
 }
 
-.tekst-6{
+.tekst-6 {
     display: block;
     position: relative;
     width: 70%;
-    top: -493vw;
+    top: -505vw;
     left: 12vw;
 }
 
-.tekst-6 p{
+.tekst-6 p {
     color: white;
 }
 
-.tekst-7{
+.tekst-7 {
     display: block;
     position: relative;
     width: 70%;
-    top: -310vw;
+    top: -325vw;
     left: 15vw;
 }
 
-.tekst-7 p{
+.tekst-7 p {
     color: white;
 }
 
@@ -402,45 +475,45 @@ Historie tekst slut
 /* ====================================
 Historie billeder start
 ==================================== */
-#billede-1{
+#billede-1 {
     position: absolute;
-    top: 132vw;
+    top: 460vw;
     z-index: -1;
 }
 
-#billede-2{
+#billede-2 {
     position: absolute;
-    top: 327vw;
+    top: 650vw;
     z-index: -1;
 }
 
-#billede-3{
+#billede-3 {
     position: absolute;
-    top: 472vw;
+    top: 800vw;
     z-index: -1;
 }
 
-#billede-4{
+#billede-4 {
     position: absolute;
-    top: 580vw;
+    top: 910vw;
     z-index: -1;
 }
 
-#billede-5{
+#billede-5 {
     position: absolute;
-    top: 777vw;
+    top: 1110vw;
     z-index: -1;
 }
 
-#billede-6{
+#billede-6 {
     position: absolute;
-    top: 890vw;
+    top: 1210vw;
     z-index: -1;
 }
 
-#billede-7{
+#billede-7 {
     position: absolute;
-    top: 1172vw;
+    top: 1510vw;
     z-index: -1;
 }
 
@@ -452,26 +525,26 @@ Historie billeder slut
 Fairtrade tekst start
 ==================================== */
 
-.tekst-8{
+.tekst-8 {
     position: absolute;
     width: 70%;
     margin: 0 auto;
-    top: 1362vw;
+    top: 1680vw;
     left: 20vw;
 }
 
-.tekst-8 p{
+.tekst-8 p {
     color: white;
 }
 
-.tekst-9{
+.tekst-9 {
     position: absolute;
     width: 45%;
     margin-left: 33%;
-    top: 1455vw;
+    top: 1785vw;
 }
 
-.tekst-9 p{
+.tekst-9 p {
     color: white;
 }
 
@@ -483,7 +556,7 @@ Fairtrade tekst slut
 Fairtrade billeder start
 ==================================== */
 
-#fairtrade-tekst-box{
+#fairtrade-tekst-box {
     display: block;
     position: relative;
     width: 75%;
@@ -491,9 +564,9 @@ Fairtrade billeder start
     left: 12vw;
 }
 
-#fairtrade-billede{
+#fairtrade-billede {
     position: absolute;
-    top: 1302vw;
+    top: 1620vw;
     z-index: -1;
 }
 
@@ -505,7 +578,7 @@ Fairtrade billeder slut
 Butik billeder start
 ==================================== */
 
-#butik-overskrift{
+#butik-overskrift {
     display: block;
     position: relative;
     width: 40%;
@@ -513,22 +586,22 @@ Butik billeder start
     left: 30vw;
 }
 
-.butik-boks{
+.butik-boks {
     display: block;
     margin: 0 auto;
     width: 80%;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 5px 1px 20px 1px;
     border-radius: 10px 10px;
 }
 
-#produkt{
+#produkt {
     width: 100%;
     box-shadow: 5px 1px 20px 1px;
     border-radius: 10px 10px 0 0;
 }
 
-#antal{
+#antal {
     display: block;
     margin: 0 auto;
     width: 45%;
@@ -536,22 +609,22 @@ Butik billeder start
     padding-top: 5%;
 }
 
-.pris{
+.pris {
     display: flex;
     justify-content: space-around;
     color: white;
 }
 
-.pris p{
+.pris p {
     width: auto;
     padding-top: 5%;
 }
 
-.betaling{
+.betaling {
     display: block;
     margin: 10% auto;
     width: 70%;
-    background-color: rgba(0,176,235,0.7);
+    background-color: rgba(0, 176, 235, 0.7);
     text-align: center;
     padding: 5% 0;
     color: white;
@@ -559,6 +632,7 @@ Butik billeder start
     border-radius: 10px 10px;
     box-shadow: 5px 1px 20px 1px black;
 }
+
 /* ====================================
 Butik billeder slut
 ==================================== */
@@ -567,7 +641,7 @@ Butik billeder slut
 Footer start
 ==================================== */
 
-footer{
+footer {
     background-color: #2d2d2d;
     color: white;
     display: flex;
@@ -578,7 +652,7 @@ footer{
     box-shadow: 5px 1px 20px 1px black;
 }
 
-#devider{
+#devider {
     display: block;
     margin: 0 auto;
     height: 2px;
@@ -588,10 +662,11 @@ footer{
     margin-top: 5%;
 }
 
-#sociale-medier{
+#sociale-medier {
     width: 45%;
     margin-top: 5%;
 }
+
 /* ====================================
 Footer slut
 ==================================== */
@@ -647,13 +722,18 @@ MEDIA QUERY MOBILE START
 MEDIA QUERY MOBILE SLUT
 ==================================== */
 
+/* ====================================
+MEDIA QUERY TABLET START
+==================================== */
+
 @media all and (min-width: 600px) {
 
     /*HEADER NAV*/
     header {
         display: flex;
         justify-content: space-between;
-        flex-direction: column; /*remove this if you do not want the column layout whit logo above menu for medium size screens*/
+        flex-direction: column;
+        /*remove this if you do not want the column layout whit logo above menu for medium size screens*/
     }
 
     #logo-burger {
@@ -662,13 +742,14 @@ MEDIA QUERY MOBILE SLUT
     }
 
     #logo {
-        margin-top: .3em;
+        width: 15%
     }
 
     #main-nav {
         justify-content: space-between;
         width: 100%;
         margin: 0;
+        font-size: 130%;
     }
 
     #main-nav a {
@@ -683,7 +764,150 @@ MEDIA QUERY MOBILE SLUT
         display: none;
     }
 
+    /*TE-VIDEN*/
+    H2 {
+        font-size: 500%;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        margin-left: 33%;
+    }
+
+    #te-viden-tekst-1 {
+        font-size: 250%;
+        line-height: 150%;
+        font-family: 'Playfair Display', serif;
+    }
+
+    h3 {
+        font-size: 300%;
+        line-height: 150%;
+        font-family: 'Lobster', cursive;
+    }
+
+    ol {
+        font-size: 230%;
+        line-height: 140%;
+        margin-left: 20%;
+    }
+    
+    ol li{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    /*HISTORIE*/
+    .tekst-1{
+        font-size: 200%;
+        margin-left: 17%;
+        line-height: 150%;
+    }
+    
+    .tekst-1 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    
+    .tekst-2{
+        font-size: 200%;
+        margin-top: 8%;
+        line-height: 150%;
+    }
+    
+    .tekst-2 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .tekst-3{
+        font-size: 200%;
+        margin-top: 5%;
+        line-height: 150%;
+    }
+    
+    .tekst-3 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .tekst-4{
+        font-size: 200%;
+        margin-top: 5%;
+        line-height: 150%;
+    }
+    
+    .tekst-4 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .tekst-5{
+        font-size: 200%;
+        margin-top: 5%;
+        line-height: 150%;
+    }
+    
+    .tekst-5 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .tekst-6{
+        font-size: 200%;
+        margin-top: 5%;
+        line-height: 150%;
+    }
+    
+    .tekst-6 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .tekst-7{
+        font-size: 200%;
+        margin-top: 5%;
+        line-height: 150%;
+    }
+    
+    .tekst-7 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    /*FAIRTRADE*/
+    .tekst-8{
+        font-size: 200%;
+        line-height: 150%;
+    }
+    
+    .tekst-8 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .tekst-9{
+        font-size: 200%;
+        margin-top: 5%;
+        line-height: 150%;
+    }
+    
+    .tekst-9 p{
+        font-family: 'Playfair Display', serif;
+    }
+    
+    /*BUTIK*/
+    .pris{
+        font-size: 260%;
+        line-height: 150%;
+    }
+    
+    .betaling{
+        font-size: 200%;
+        margin-top: 5%;
+        line-height: 150%;
+    }
+    
+    /*FOOTER*/
+    footer p{
+        font-size: 200%;
+        line-height: 150%;
+    }
 }
+
+/* ====================================
+MEDIA QUERY TABLET SLUT
+==================================== */
 
 /* ====================================
 MEDIA QUERY LAPTOP AND ABOVE START
@@ -696,7 +920,7 @@ MEDIA QUERY LAPTOP AND ABOVE START
         flex-direction: row;
         align-items: center;
     }
-    
+
 }
 
 /* ====================================
