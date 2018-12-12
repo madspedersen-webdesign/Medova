@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width: 100%;
-    font-family: sans-serif;
 }
 
 body {
@@ -17,12 +15,12 @@ Nav start
 
 header {
     width: 100%;
-    padding: 0 40px;
+    padding: 0 5%;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 10;
-    margin-top: 4%
+    margin-top: 2%
 }
 
 #logo-burger {
@@ -33,7 +31,7 @@ header {
 
 #logo img {
     width: 100%;
-    margin-top: 20%
+    margin-top: 20%;
 }
 
 #logo,
@@ -107,6 +105,7 @@ h2 {
     margin-right: auto;
     margin-top: -40%;
     z-index: -1;
+    width: 100%;
 }
 
 #te-viden-boks {
@@ -116,6 +115,7 @@ h2 {
     margin-right: auto;
     margin-top: -75%;
     width: 60%;
+    box-shadow: 5px 1px 20px 1px;
 }
 
 #te-pose {
@@ -160,460 +160,387 @@ Te-viden slut
 ==================================== */
 
 /* ====================================
-Bokse og streger start
+Historie start
 ==================================== */
 
-.year {
+#box1 {
     width: 70%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 18%;
+    margin: 0 auto;
+}
+
+#line-break {
+    position: absolute;
+    border-bottom: 1px solid white;
+    width: 250px;
+    margin-top: -140%;
+    margin-left: 16%
+}
+
+#tekst-1 {
+    color: white;
+    margin: 5% 10%;
+    position: absolute;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+}
+
+#billede-1 {
+    width: 100%;
+    position: absolute;
+    margin-top: 5%;
+    z-index: -1;
 }
 
 #vandret-1 {
-    width: 15%;
-    display: block;
-    position: relative;
-    margin-top: -340%;
-    margin-left: 4.8%;
+    width: 12%;
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 5%;
 }
 
 #lodret-1 {
     width: 1%;
-    display: block;
-    position: relative;
-    margin-left: 4.8%;
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 5%;
 }
 
 #vandret-2 {
-    width: 18%;
-    display: block;
-    position: relative;
-    margin-left: 4.8%;
+    width: 20%;
+    position: absolute;
+    margin-top: 140%;
+    margin-left: 5%;
 }
 
 #box2 {
-    width: 30%;
+    width: 25%;
     display: block;
-    position: relative;
-    top: 99vw;
-    left: 19vw;
-
+    margin-left: 24%;
+    margin-top: 123%;
 }
 
 #vandret-3 {
-    width: 45%;
-    display: block;
-    position: relative;
-    top: -1vw;
-    left: 44%;
+    width: 40%;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 49%;
 }
 
 #lodret-2 {
     width: 1%;
-    display: block;
-    position: relative;
-    top: -2vw;
-    left: 88.9%;
+    position: absolute;
+    margin-left: 89%;
+    margin-top: -15%;
+}
+
+#tekst-2 {
+    color: white;
+    margin: 5% 15% 0 10%;
+    position: absolute;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+}
+
+#billede-2 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 50%;
 }
 
 #vandret-5 {
-    width: 18%;
-    display: block;
-    position: relative;
-    top: -3vw;
-    left: 71.5%;
+    width: 20%;
+    position: absolute;
+    margin-top: 142%;
+    margin-left: 70%;
 }
 
 #box3 {
-    width: 23%;
+    width: 25%;
     display: block;
-    position: relative;
-    top: 223vw;
-    left: 49.5%;
+    margin-left: 45%;
+    margin-top: 124%;
 }
 
 #vandret-6 {
-    width: 45%;
-    display: block;
-    position: relative;
-    top: -4vw;
-    left: 5.5%;
+    width: 38%;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -15%;
 }
 
 #lodret-3 {
     width: 1%;
-    display: block;
-    position: relative;
-    top: -5vw;
-    left: 5%;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -15%;
+}
+
+#tekst-3 {
+    color: white;
+    margin: 5% 5% 0 12%;
+    position: absolute;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+}
+
+#billede-3 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 40%;
 }
 
 #vandret-7 {
-    width: 18%;
-    display: block;
-    position: relative;
-    top: -6vw;
-    left: 5%;
+    width: 20%;
+    position: absolute;
+    margin-top: 142%;
+    margin-left: 7%;
 }
 
 #box4 {
-    width: 25%;
+    width: 23%;
     display: block;
-    position: relative;
-    top: 348vw;
-    left: 21.5%;
+    margin-left: 26%;
+    margin-top: 127%;
 }
 
 #vandret-8 {
-    width: 45%;
-    display: block;
-    position: relative;
-    top: -7vw;
-    left: 45%;
+    width: 41%;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: -15%;
 }
 
 #lodret-4 {
     width: 1%;
-    display: block;
-    position: relative;
-    top: -8vw;
-    left: 89%;
+    position: absolute;
+    margin-left: 89%;
+    margin-top: -15%;
+}
+
+#tekst-4 {
+    color: white;
+    margin: 5% 15% 0 10%;
+    position: absolute;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+}
+
+#billede-4 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -20%;
 }
 
 #vandret-9 {
-    width: 18%;
-    display: block;
-    position: relative;
-    top: -9vw;
-    left: 72%;
+    width: 20%;
+    position: absolute;
+    margin-top: 142%;
+    margin-left: 70%;
 }
 
 #box5 {
-    width: 25%;
+    width: 23%;
     display: block;
-    position: relative;
-    top: 473vw;
-    left: 48.3%;
+    margin-left: 47%;
+    margin-top: 127%;
 }
 
 #vandret-10 {
     width: 41%;
-    display: block;
-    position: relative;
-    top: -10vw;
-    left: 8.5%;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -15%;
 }
 
 #lodret-5 {
     width: 1%;
-    display: block;
-    position: relative;
-    top: -10vw;
-    left: 8.5%;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: -15%;
+}
+
+#tekst-5 {
+    color: white;
+    margin: 5% 5% 0 12%;
+    position: absolute;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+}
+
+#billede-5 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 30%;
 }
 
 #vandret-11 {
-    width: 18%;
-    display: block;
-    position: relative;
-    top: -10vw;
-    left: 8.5%;
+    width: 20%;
+    position: absolute;
+    margin-top: 142%;
+    margin-left: 7%;
 }
 
 #box6 {
-    width: 24%;
+    width: 23%;
     display: block;
-    position: relative;
-    top: 597vw;
-    left: 25.5%;
+    margin-left: 26%;
+    margin-top: 127%;
 }
 
 #vandret-12 {
     width: 41%;
-    display: block;
-    position: relative;
-    top: -11vw;
-    left: 48.5%;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: -15%;
 }
 
 #lodret-6 {
     width: 1%;
-    display: block;
-    position: relative;
-    top: -12vw;
-    left: 89%;
+    position: absolute;
+    margin-left: 89%;
+    margin-top: -15%;
 }
 
-#box7 {
-    width: 80%;
-    display: block;
-    position: relative;
-    ;
-    top: 710vw;
-    left: 10%
+#tekst-6 {
+    color: white;
+    margin: 5% 15% 0 10%;
+    position: absolute;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+}
+
+#billede-6 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -15%;
 }
 
 #vandret-13 {
-    width: 9%;
+    width: 13%;
+    position: absolute;
+    margin-top: 142%;
+    margin-left: 77%;
+}
+
+#box7 {
+    width: 70%;
     display: block;
-    position: relative;
-    top: -12vw;
-    left: 81%;
+    margin: 0 auto;
+    margin-top: 127%;
+}
+
+#tekst-7 {
+    color: white;
+    margin: 5% 10%;
+    position: absolute;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+}
+
+#billede-7 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 50%;
+}
+
+/* ====================================
+Historie slut
+==================================== */
+
+/* ====================================
+Fairtrade start
+==================================== */
+
+#fairtrade-tekst-box {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 127%;
 }
 
 #blue-vandret {
-    width: 8%;
-    display: block;
-    position: relative;
-    top: 255vw;
-    left: 10.6%
+    width: 12%;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: -20%;
 }
 
 #blue-lodret {
-    width: 1%;
-    display: block;
-    position: relative;
-    top: 255vw;
-    left: 10.6%
+    width: 1.5%;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: -20%;
+}
+
+#tekst-8 {
+    color: white;
+    margin: 15% 10% 0 20%;
+    position: absolute;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+}
+
+#fairtrade-billede {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: -20%;
 }
 
 #blue-vandret-2 {
-    width: 20%;
-    display: block;
-    position: relative;
-    top: 255vw;
-    left: 10.6%
+    width: 30%;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 197%;
 }
 
 #blue-box {
     width: 50%;
-    display: block;
-    position: relative;
-    top: 235vw;
-    left: 30%
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 150%;
 }
 
-/* ====================================
-Bokse og streger slut
-==================================== */
-
-/* ====================================
-Historie tekst start
-==================================== */
-
-.tekst-1 {
-    display: block;
-    position: relative;
-    width: 70%;
-    top: -1145vw;
-    margin-left: 17%;
-}
-
-.tekst-1 p {
+#tekst-9 {
     color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-.tekst-2 {
-    display: block;
-    position: relative;
-    width: 70%;
-    top: -1025vw;
-    margin-left: 12%;
-}
-
-.tekst-2 p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-.tekst-3 {
-    display: block;
-    position: relative;
-    width: 70%;
-    top: -908vw;
-    left: 20vw
-}
-
-.tekst-3 p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-.tekst-4 {
-    display: block;
-    position: relative;
-    width: 70%;
-    top: -800vw;
-    left: 12vw;
-}
-
-.tekst-4 p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-.tekst-5 {
-    display: block;
-    position: relative;
-    width: 70%;
-    top: -693vw;
-    left: 20vw;
-}
-
-.tekst-5 p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-.tekst-6 {
-    display: block;
-    position: relative;
-    width: 70%;
-    top: -592vw;
-    left: 12vw;
-}
-
-.tekst-6 p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-.tekst-7 {
-    display: block;
-    position: relative;
-    width: 70%;
-    top: -425vw;
-    left: 15vw;
-}
-
-.tekst-7 p {
-    color: white;
+    margin: 155% 10% 0 45%;
+    position: absolute;
+    line-height: 1.5;
     font-family: 'Playfair Display', serif;
 }
 
 /* ====================================
-Historie tekst slut
+Fairtrade slut
 ==================================== */
 
 /* ====================================
-Historie billeder start
-==================================== */
-#billede-1 {
-    position: absolute;
-    top: 475vw;
-    z-index: -1;
-}
-
-#billede-2 {
-    position: absolute;
-    top: 665vw;
-    z-index: -1;
-}
-
-#billede-3 {
-    position: absolute;
-    top: 815vw;
-    z-index: -1;
-}
-
-#billede-4 {
-    position: absolute;
-    top: 925vw;
-    z-index: -1;
-}
-
-#billede-5 {
-    position: absolute;
-    top: 1125vw;
-    z-index: -1;
-}
-
-#billede-6 {
-    position: absolute;
-    top: 1225vw;
-    z-index: -1;
-}
-
-#billede-7 {
-    position: absolute;
-    top: 1510vw;
-    z-index: -1;
-}
-
-/* ====================================
-Historie billeder slut
+Butik start
 ==================================== */
 
-/* ====================================
-Fairtrade tekst start
-==================================== */
-
-.tekst-8 {
+#line-break-1 {
     position: absolute;
-    width: 70%;
-    margin: 0 auto;
-    top: 1680vw;
-    left: 20vw;
+    border-bottom: 1px solid white;
+    width: 250px;
+    margin-top: -36%;
+    margin-left: 16%
 }
-
-.tekst-8 p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-.tekst-9 {
-    position: absolute;
-    width: 45%;
-    margin-left: 33%;
-    top: 1795vw;
-}
-
-.tekst-9 p {
-    color: white;
-    font-family: 'Playfair Display', serif;
-}
-
-/* ====================================
-Fairtrade tekst slut
-==================================== */
-
-/* ====================================
-Fairtrade billeder start
-==================================== */
-
-#fairtrade-tekst-box {
-    display: block;
-    position: relative;
-    width: 75%;
-    top: -348vw;
-    left: 12vw;
-}
-
-#fairtrade-billede {
-    position: absolute;
-    top: 1625vw;
-    z-index: -1;
-}
-
-/* ====================================
-Fairtrade billeder slut
-==================================== */
-
-/* ====================================
-Butik billeder start
-==================================== */
 
 #butik-overskrift {
+    color: white;
     display: block;
-    position: relative;
-    width: 40%;
-    top: -30vw;
-    left: 30vw;
-    margin-top: -120%;
-    margin-bottom: -20%;
+    margin: 0 auto;
+    margin-top: 240%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
 }
 
 .butik-boks {
@@ -675,7 +602,7 @@ Butik billeder start
     padding-bottom: 4%;
 }
 
-.line-break {
+#line-break-2 {
     border-bottom: 1px solid white;
     width: 250px;
     margin: 0 auto;
@@ -707,8 +634,9 @@ Butik billeder start
     font-family: 'Playfair Display', serif;
 }
 
+
 /* ====================================
-Butik billeder slut
+Butik slut
 ==================================== */
 
 /* ====================================
@@ -747,10 +675,6 @@ footer p {
 
 /* ====================================
 Footer slut
-==================================== */
-
-/* ====================================
-MEDIA QUERY MOBILE START
 ==================================== */
 
 @media all and (max-width: 599px) {
@@ -810,7 +734,6 @@ MEDIA QUERY TABLET START
     header {
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
         /*remove this if you do not want the column layout whit logo above menu for medium size screens*/
     }
 
@@ -820,14 +743,16 @@ MEDIA QUERY TABLET START
     }
 
     #logo {
-        width: 15%
+        width: 50%
     }
 
     #main-nav {
         justify-content: space-between;
         width: 100%;
         margin: 0;
-        font-size: 130%;
+        font-size: 150%;
+        margin-top: 6%;
+        
     }
 
     #main-nav a {
@@ -843,197 +768,145 @@ MEDIA QUERY TABLET START
     }
 
     /*TE-VIDEN*/
-    H2 {
-        font-size: 500%;
-        text-align: center;
-        margin-left: 33%;
+
+    h2 {
+        font-size: 70px;
     }
 
     #te-viden-tekst-1 {
-        font-size: 250%;
-        line-height: 150%;
+        font-size: 30px;
     }
 
     h3 {
-        font-size: 300%;
-        line-height: 150%;
+        font-size: 35px;
     }
 
     ol {
-        font-size: 230%;
-        line-height: 140%;
         margin-left: 20%;
     }
 
+    ol li {
+        font-size: 30px;
+    }
+
     /*HISTORIE*/
-    .tekst-1 {
-        font-size: 200%;
-        margin-left: 17%;
-        line-height: 150%;
-        top: -1130vw;
+
+    #box1 {
+        width: 60%;
     }
 
-    .tekst-2 {
-        font-size: 200%;
-        line-height: 150%;
-        top: -1005vw;
+    #line-break {
+        border-bottom: 3px solid white;
+        width: 500px;
+        margin-top: -110%;
     }
 
-    .tekst-3 {
-        font-size: 200%;
-        line-height: 150%;
-        top: -871vw;
+    #tekst-1 {
+        font-size: 30px;
     }
 
-    .tekst-4 {
-        font-size: 200%;
-        line-height: 150%;
-        top: -735vw;
+    #vandret-1 {
+        width: 18%;
     }
 
-    .tekst-5 {
-        font-size: 200%;
-        top: -600vw;
-        line-height: 150%;
+    #tekst-2 {
+        font-size: 30px;
     }
 
-    .tekst-6 {
-        font-size: 200%;
-        top: -468vw;
-        line-height: 150%;
+    #tekst-3 {
+        font-size: 30px;
     }
 
-    .tekst-7 {
-        font-size: 200%;
-        top: -283vw;
-        line-height: 150%;
+    #tekst-4 {
+        font-size: 30px;
     }
-    
-    #billede-1{
-        top: 453vw;
+
+    #tekst-5 {
+        font-size: 30px;
     }
-    
-    #billede-2{
-        top: 640vw;
+
+    #tekst-6 {
+        font-size: 30px;
     }
-    
-    #billede-3{
-        top: 790vw;
-    }
-    
-    #billede-4{
-        top: 900vw;
-    }
-    
-    #billede-5{
-        top: 1100vw;
-    }
-    
-    #billede-6{
-        top: 1200vw;
-    }
-    
-    #billede-7{
-        top: 1480vw;
+
+    #tekst-7 {
+        font-size: 30px;
     }
 
     /*FAIRTRADE*/
-    #fairtrade-tekst-box{
-        top: -200vw;
-    }
-    
-    .tekst-8 {
-        top: 1650vw;
-        font-size: 200%;
-        line-height: 150%;
+
+    #fairtrade-tekst-box {
+        width: 60%;
     }
 
-    .tekst-9 {
-        width: 38%;
-        font-size: 200%;
-        line-height: 150%;
-        top: 1750vw;
+    #blue-vandret {
+        width: 16%;
     }
-    
-    #blue-vandret{
-        top: 230vw;
+
+    #tekst-8 {
+        font-size: 30px;
     }
-    
-    #blue-lodret{
-        top: 230vw;
+
+    #blue-box {
+        width: 50%;
     }
-    
-    #blue-vandret-2{
-        top: 230vw;
-    }
-    
-    #blue-box{
-        width: 40%;
-        top: 205vw;
-    }
-    
-    #fairtrade-billede{
-        top: 1590vw;
+
+    #tekst-9 {
+        margin: 152% 17% 0 43%;
+        font-size: 30px;
     }
 
     /*BUTIK*/
-    .butik-boks{
-        width: 65%;
+
+    #line-break-1 {
+        border-bottom: 3px solid white;
+        width: 500px;
     }
-    
-    .pris {
-        font-size: 260%;
-        line-height: 150%;
+
+    #butik-overskrift {
+        font-size: 100px;
+    }
+
+    .butik-boks {
+        width: 60%;
+    }
+
+    #antal {
+        width: 35%;
+    }
+
+    .pris p {
+        font-size: 30px;
     }
 
     .pris-2 p {
-        font-size: 300%;
+        font-size: 30px;
     }
 
     .fragt p {
-        font-size: 300%;
-        padding-bottom: 4%;
+        font-size: 30px;
     }
 
-    .line-break {
+    #line-break-2 {
         border-bottom: 3px solid white;
-        width: 700px;
+        width: 500px;
     }
 
     .total p {
-        font-size: 300%;
+        font-size: 30px;
     }
 
     .betaling {
-        font-size: 200%;
-        margin-top: 5%;
-        line-height: 150%;
+        font-size: 30px
     }
 
     /*FOOTER*/
+
     footer p {
-        font-size: 200%;
-        line-height: 150%;
+        font-size: 25px;
+    }
+
+    #sociale-medier {
+        width: 30%;
     }
 }
-
-/* ====================================
-MEDIA QUERY TABLET SLUT
-==================================== */
-
-/* ====================================
-MEDIA QUERY LAPTOP AND ABOVE START
-==================================== */
-
-@media all and (min-width: 1024px) {
-
-    /*HEADER*/
-    header {
-        flex-direction: row;
-        align-items: center;
-    }
-}
-
-/* ====================================
-MEDIA QUERY LAPTOP AND ABOVE SLUT
-==================================== */
