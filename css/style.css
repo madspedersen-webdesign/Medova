@@ -833,6 +833,10 @@ Footer slut
     #main-nav li:last-of-type {
         border-bottom: none;
     }
+    
+    #blue-box{
+        display: none;
+    }
 }
 
 /* ====================================
